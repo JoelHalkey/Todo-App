@@ -1,0 +1,21 @@
+Functional Requirements:
+
+1. UI
+ 1a. Create enter items TODO tasks
+ 1b. CRUD without Update
+ 1c. Read tasks
+
+Development:
+- reusable component for todo items/ tasks
+- react props
+- state management with useState
+- user input for creating tasks
+    ~ TextInput -> (web domain: input type='text')
+    ~ For native it's slightly different
+- Keyboard behavior for mobile apps
+
+Steps:
+1. Setup connection with the component
+2. Get user input
+3. Save the user input as a state
+4. Event handler functions for createTask and deleteTask
