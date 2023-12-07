@@ -11,8 +11,8 @@ const Task = (props) => {
       {/* Square icon to the left */}
       <View style={styles.itemLeft}>
         <View style={styles.squareIcon}>
-            <Text style={styles.itemText}>{props.text}</Text>
         </View>
+            <Text style={styles.itemText}>{props.text}</Text>
       </View>
 
       {/* Circular icon to the right */}
